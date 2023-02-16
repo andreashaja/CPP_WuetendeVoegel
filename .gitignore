@@ -1,0 +1,26 @@
+# Misc
+.DS_Store
+
+
+# Ignore build files
+*.o
+*.exe
+
+# Ignore compiled libraries
+*.so
+*.a
+*.lib
+
+# Ignore IDE specific files
+*.vcxproj
+*.sln
+
+# Ignore temporary files
+*~
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Keep the readme
+!readme.md
